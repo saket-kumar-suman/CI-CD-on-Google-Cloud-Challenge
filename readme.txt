@@ -2,7 +2,7 @@
 
 cd web
 skaffold build --interactive=false \
---default-repo {INSERT YOUR ARTIFACT REPOSITORY HERE} \
+--default-repo us-central1-docker.pkg.dev/qwiklabs-gcp-03-974b0f5ae827/cicd-challenge \
 --file-output artifacts.json
 cd ..
 
@@ -120,7 +120,7 @@ cat web/skaffold.yaml
 
 cd web
 skaffold build --interactive=false \
---default-repo <#### Make Changes Here ####> \
+--default-repo us-central1-docker.pkg.dev/qwiklabs-gcp-03-974b0f5ae827/cicd-challenge \
 --file-output artifacts.json
 cd ..
 
