@@ -2,7 +2,7 @@
 
 cd web
 skaffold build --interactive=false \
---default-repo us-central1-docker.pkg.dev/qwiklabs-gcp-03-974b0f5ae827/cicd-challenge \
+--default-repo us-central1-docker.pkg.dev/qwiklabs-gcp-04-3f20d3a4f3e1/cicd-challenge \
 --file-output artifacts.json
 cd ..
 
@@ -120,7 +120,7 @@ cat web/skaffold.yaml
 
 cd web
 skaffold build --interactive=false \
---default-repo us-central1-docker.pkg.dev/qwiklabs-gcp-03-974b0f5ae827/cicd-challenge \
+--default-repo us-central1-docker.pkg.dev/qwiklabs-gcp-04-3f20d3a4f3e1/cicd-challenge \
 --file-output artifacts.json
 cd ..
 
